@@ -9,6 +9,7 @@
 .obsidian/themes/
 .obsidian/graph.json
 .obsidian/canvas.json
+.obsidian/backlink.json
 
 # Keep important Obsidian config
 !.obsidian/app.json
