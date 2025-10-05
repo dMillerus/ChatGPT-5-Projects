@@ -1,26 +1,29 @@
-# Prompt-Builder: GPT-5 Ready Prompt Engineering System
+# Personal Knowledge Vault: Multi-LLM Prompt Engineering System
 
-A governed, modular system for creating precise, GPT-5-ready prompts using structured templates, chain-of-thought scaffolds, and persona alignment.
+A governed, modular knowledge management system for creating precise prompts across multiple LLMs using structured templates, chain-of-thought scaffolds, and persona alignment. Currently optimized for ChatGPT-5 with planned Anthropic (Claude Sonnet 4) integration.
 
 ## 🧠 What This Is
 
-This Obsidian vault contains a comprehensive framework for building high-quality prompts with:
+This personal knowledge vault serves as a comprehensive system for prompt engineering, documentation management, and AI interaction workflows. The vault contains:
 
-- **Structured Templates** - Consistent format across all prompts
+- **Multi-LLM Integration** - Active ChatGPT-5 support, planned Claude Sonnet 4 integration
+- **Structured Templates** - Consistent format across all prompts and models
 - **Chain-of-Thought Scaffolds** - 7 reasoning frameworks for clarity
 - **Persona Alignment** - Role-based prompt optimization
 - **Governance System** - Version control and quality gates
+- **Knowledge Archive** - Conversation history and documentation storage
 - **Artifact Matrix** - Triggered outputs for complex scenarios
 
-## 📁 Repository Structure
+## 📁 Vault Structure
 
 ```text
-/ChatGPT-5 Projects/
+/ChatGPT-5 Projects/               # Personal knowledge vault root
 ├── .github/
 │   └── copilot-instructions.md    # AI agent guidance
 ├── Projects/
+│   ├── Instructions.md            # Core prompt builder system
 │   └── Prompts/
-│       └── Project Files/         # Core prompt engineering system
+│       └── Project Files/         # Prompt engineering framework
 │           ├── PROMPT_TEMPLATE.md # Single source of truth
 │           ├── CHAIN_SCAFFOLDS.md # Reasoning frameworks
 │           ├── PERSONA_CATALOG.md # Role definitions
@@ -32,8 +35,9 @@ This Obsidian vault contains a comprehensive framework for building high-quality
 │           ├── artifacts/         # Generated outputs
 │           ├── templates/         # Reusable patterns
 │           └── toolcards/         # Tool-specific policies
-├── Chat Archive/                  # Conversation history
-└── Docs/                         # External documentation
+├── Chat Archive/                  # ChatGPT-5 conversation history
+├── Docs/                         # External documentation
+└── [Planned: Claude Archive/]     # Future Anthropic integration
 ```
 
 ## 🚀 Quick Start
@@ -96,14 +100,23 @@ Auto-generated when conditions are met: Problem Briefs, Style Guides, Evaluation
 4. **Quality Gate**: All MAJOR/MINOR changes must pass `EVAL_RUBRIC.md`
 5. **Documentation**: Update `CHANGELOG.md` for every change
 
-## 🛠 Tools & Integration
+## 🛠 LLM Integration & Tools
 
-Built for use with:
+### Current Integration
 
-- **Obsidian** (primary interface)
-- **GitHub Copilot** (AI agent integration)
-- **ChatGPT/Claude** (prompt execution)
-- **Any LLM** supporting structured prompts
+- **ChatGPT-5** (active) - Full prompt execution and conversation archival
+- **Obsidian** (primary interface) - Knowledge management and graph navigation
+- **GitHub Copilot** (AI agent integration) - Repository-aware assistance
+
+### Planned Integration
+
+- **Claude Sonnet 4** (pending) - Mirror ChatGPT-5 directory structure and governance
+- **Cross-LLM Workflows** - Unified prompt templates across models
+
+### Compatibility
+
+- **Any LLM** supporting structured prompts and tool policies
+- **Multi-model Evaluation** - Comparative prompt performance tracking
 
 ## 📋 License
 
@@ -119,4 +132,4 @@ This repository is public to support the prompt engineering community. See indiv
 
 ---
 
-**Note**: This is an Obsidian vault. Clone and open in Obsidian for the full experience including graph navigation, wikilinks, and knowledge management features.
+**Note**: This is a personal Obsidian knowledge vault with active ChatGPT-5 integration and planned Anthropic support. Clone and open in Obsidian for the full experience including graph navigation, wikilinks, conversation archives, and cross-LLM prompt management.
