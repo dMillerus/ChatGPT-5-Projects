@@ -1,3 +1,14 @@
+---
+id: 649303a9-1d8f-4a20-8ee0-f9edc1495549
+title: README
+author: Dave
+created: '2025-10-05T02:13:54-05:00'
+modified: '2025-10-05T02:36:32-05:00'
+status: active
+linked_docs: []
+tags: []
+checksum: df599244fec68ac0
+---
 # Personal Knowledge Vault: Multi-LLM Prompt Engineering System
 
 A governed, modular knowledge management system for creating precise prompts across multiple LLMs using structured templates, chain-of-thought scaffolds, and persona alignment. Currently optimized for ChatGPT-5 with planned Anthropic (Claude Sonnet 4) integration.
